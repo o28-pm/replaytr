@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "replaytr",
+  "version": "${version}",
+  "name": "Replay Modu (TR)",
+  "description": "X tuşuyla açılan Türkçe menü ile oyuncu hareketlerini kaydet, yavaş/hızlı oynat ve dışa aktar.",
+  "authors": ["Sen"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.replaytr.ReplayModClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
